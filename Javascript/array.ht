@@ -1,0 +1,49 @@
+ // let customer = [];
+        // customer.push(5);
+        // console.log(customer);
+
+        // let customers =["John","Sarah","Prince","Silas"];
+        // console.log(customers);
+        // customers.push("Elena");
+        // console.log(customers);
+         //.pop is used to remove the last customer
+        // customers.pop();
+
+        //add customer at the begining
+        // customers.unshift("Admin");
+        // console.log(customers);
+
+        // remove first customer
+        // customers.shift();
+        // console.log(customers);
+        // console.log(customers.length);
+
+        // let balance = [5000,12000,3000];
+        // console.log(balance[1]);
+        // console.log(balance[2]);
+
+        // let workers = ["Deamon","Minho","Klaus","Dae"]
+        // for(let i = 0; i<workers.length; i++){
+        //     console.log(workers[i]);
+        // }
+        
+        // while (i < workers.length) {
+        //     console.log(customers[i]);
+        //     i++;
+        // }
+
+        // let transactions = [500,200,1000,-300];
+
+        // let total = 0;
+        // for (let i = 0; i < transactions.length; i++) {
+        //     total = total + transactions[i];
+        // }
+        // console.log(total)
+        // let customers = ["John","Mary","Paul","Sarah"];
+
+        // console.log(customers);
+        // customers.splice(2,1);
+        // console.log(customers);
+
+        // let vipCustomers = customers.slice(1,3);
+        // console.log(vipCustomers);

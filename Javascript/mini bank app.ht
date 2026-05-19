@@ -1,0 +1,93 @@
+ // Mini Bank App
+        // let transactions = []; 
+        // stores all deposit and withdrawals
+
+        //1. Deposit Money (push)
+        // function deposit (amount) {
+        //     transactions.push(amount);
+        //     console.log ('Deposited: $#{amount}');
+        // }
+
+        // Withdraw Money (Push negative value)
+        // function withdraw(amount) {
+        //     transactions.push(amount);
+        //     console.log(`Deposited: $${amount}`);
+        // }
+
+        //Remove last Transaction (pop)
+
+        // function undoLastTransaction() {
+        //     let removed = transactions.pop();
+        //     console.log(`Last transaction removed: ${removed}`);
+        // }
+
+        //Add Opening Balance (unshift)
+        // function addOpeningBalance(amount) {
+        //     transactions.unshift(amount);
+        //     console.log(`Opening balance added: $${amount}`);
+        // }
+
+        //Remove opening balance (shift)
+        // function removeOpeningBalance() {
+        //     let removed = transactions.shift();
+        //     console.log(`Opening balance removed: $${removed}`);
+        // }
+
+        // Calculate balance (for loop)
+        // function getBalance() {
+        //     let balance = 0;
+        //     for (let i = 0; i < transactions.length; i++) {
+        //         balance += transactions[i];
+        //     }
+
+        //     console.log(`Current Balance: $${balance}`);
+        //     return balance;
+        // }
+
+        // View recent transaction (slice)
+        // function viewRecentTransaction() {
+        //     let recent = transactions.slice(-3);
+        //     console.log("Recent Transaction", recent);
+        // }
+
+        // Delete a specific transaction (Splice + indexOf)
+        // function deleteTransaction(amount) {
+        //     let index = transactions.indexOf(amount);
+        //     if(index!== -1) {
+        //         transactions.splice(index, 1);
+        //         console.log(`Transaction ${amount} deleted`);
+        //     } else {
+        //         console.log("Transaction not found");
+        //     }
+        // }
+
+        // Check if a transaction exists (includes)
+        // function hasTransaction(amount) {
+        //     if(transactions.includes(amount)){
+        //         console.log(`Transaction ${amount} exists`);
+        //     } else {
+        //         console.log(`Transaction ${amount} does not exist`);
+        //     }
+        // }
+
+        // addOpeningBalance(1000);
+        // getBalance();
+        // deposit(500);
+        // getBalance();
+        // deposit(200);
+        // getBalance();
+        // withdraw(300);
+        // getBalance();
+
+        // viewRecentTransaction();
+
+
+        // hasTransaction(200);
+        // deleteTransaction(200);
+
+        // removeOpeningBalance();
+        // getBalance();
+
+        // undoLastTransaction();
+        // getBalance();
+        // console.log("All Transaction:" , transactions);

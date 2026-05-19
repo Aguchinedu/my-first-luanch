@@ -1,0 +1,22 @@
+   //And Operator
+    //    console.log(true&&false);
+    //    console.log(true&&false);
+    //    console.log(false&&false);
+    //    console.log(19 >= 0 && 0<2);
+
+       // || OR Operator
+    //    console.log( true|| false);
+    //    console.log(true || true);
+    //    console.log(false|| false);
+
+        // let balance = 800;
+        // let pin = 1234;
+        // let canWithdraw = balance >= 500 && pin === 1234;
+        // //let canWithdraw = balance >=2000 || pin===1234;
+        // console.log(canWithdraw);
+
+        // let balance = 800;
+        // let pin = 1234;
+        // if(false) console.log("No run");
+
+    

@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // console.log("Anneong");
+
+        // console - built-in browser object
+        // .access operator
+        // ()- run the function
+        // log- function that prints
+        // "hello world"-string
+        // ;-statement ends
+
+        // console.log(100)
+        // console.log("100");
+        // console.log(true);
+        // console.log("Balance loader");
+        // console.log("balance created successfully");
+
+        // console.log(67)
+        // console.log("Amente");
+        // console.log(false);
+
+        // a variable is a box that holds data
+        // let amount = 10;
+        // let balance = 20;
+        // console.log(amount);
+        // console.log(balance);
+
+        //let- create a variable 
+        //balance- variable name
+        //=- assignment operator 
+        //1000- value
+
+        // variable is a container that stores data values.
+        //It allows us to store and manipulate data in our programs.
+        //We can use variables to hold dif types of data, such as numbers , string, boolean, and more.
+        //Variables are essential for creating dynamic and interative applications.
+
+        // let bankName = "Super bank";
+        // let -create a variable
+        //bankName- is the name of te variable
+        // = assignment operator
+        //"Super bank "- is the value assigned to the variable
+
+        
+        
+        // let string = "Please";
+        // let boolean = true;
+        // let age= 45;
+        // console.log(string);
+        // console.log(boolean);
+        // console.log(age);
+
+        // let string = "Meumi apayo, jo aye Amente";
+        // let age=34;
+        // let boolean = false;
+        // console.log(string);
+        // console.log(age);
+        // console.log(boolean);
+
+
+
+        //Types of Variables
+        // Types include var, let and const
+        //Var can be re-declared and re-assigned,function scoped and hoisted
+        //var balanced = 500;
+        //  var balance = 1000;
+        //  balance = 2000;
+        // console.log(balance);
+
+        //let can be re-assigned but not re-declared, block scoped and hoisted
+        //   let balance = 500;
+        // let balance= 10000;
+        // balanced = 20000;
+        // balance = balance +=200
+        // console.log(balance);
+
+        //  balan = 250;
+        //  let amount= 250;
+        //  let total = balan += amount;
+        // let withdrawl= 400;
+        // let balance = total-=withdrawl;
+        // // console.log(total);
+        //  console.log(balance);
+
+        // let age = 22;
+        // let years = 5
+        // age = age*years;
+        // console.log(age);
+
+        // let number = 30;
+        // let length= 6;
+        // number /= length;
+        // console.log(number);
+
+        //const cannot be re-assigned or re-declared, block scoped and not hoisted
+        // const accountNumnber ="08162956333";
+        // const accountNumnber="0123456789";
+        // accountNumnber="1122334455";
+
+        //Data Types
+        //Java script has 8 data types 
+        //they are grouped into two categories
+        
+        // Primitive and Non- primitive
+        //Primitive data types are the most 
+        // basic data types in javascript .
+        // They are immutable and are stored directly in the memory.
+        // Examples include;
+        //String
+        // Number
+        // boolean
+        //undefined 
+        //null
+        //symbol
+        //bigint
+        
+        //Non- Primitive data types 
+        // are more complex data types in javascript
+        //1. object
+        // let user ={
+        //     name:"Sunday",
+        //     balance: 5000,
+        // };
+
+        // console.log(5=="5");
+        // console.log(5==="5")
+
+        // let username="john";
+        // console.log(username);
+        // let amount= 2000;
+        // console.log(amount);
+        // let isActive= true;
+        // console.log(isActive);
+        // let pin;
+        // console.log(pin);
+        // let account=null;
+        // console.log(account);
+        // let score=0;
+        // console.log(score);
+        // let hashcard = false;
+        // console.log(hashcard);
+        // let id = Symbol("id");
+        // console.log(id);
+        // console.log(typeof pin);
+        // console.log(typeof amount);
+        // console.log(typeof isActive);
+        // console.log(typeof account);
+        // console.log(typeof score);
+        // console.log(typeof id);
+        // console.log(typeof hashcard);
+        // Not Operator 
+        // console.log(true);
+        // console.log(false);
+        // console.log(!true);
+        // console.log(!false);
+        // if(5) {
+        //  console.log("truthy");
+        // }
+
+         
+       //List of falsy value
+       //false, 0, NaN, undefined, null, ""
+
+        //    if(0){
+        //     console.log("false");
+        //    }
+
+    //    console.log(!0);
+    //    console.log("test" / 5);
+    //    let car;
+    //    console.log(car);
+    //    const purple = undefined;
+    //    console.log(purple);
+    //    Comparison Operator
+    //    let pin = 1234;
+    //    let balance=1000;
+    //    console.log(balance>500);
+    //    console.log(balance===1000);
+    //    console.log(pin!==1234);
+    //    console.log(10>=5);
+    //    console.log(5<=10);
+    //    console.log(true === true);
+    //    console.log(false !== true);
+       
+
+       //let pin = 1234;
+       //let correct = pin === 1234;
+       //console.log(correct);
+       //console.log(true && true);
+       //console.log(false || true);
+
+       //And Operator
+    //    console.log(true&&false);
+    //    console.log(true&&false);
+    //    console.log(false&&false);
+    //    console.log(19 >= 0 && 0<2);
+
+       // || OR Operator
+    //    console.log( true|| false);
+    //    console.log(true || true);
+    //    console.log(false|| false);
+
+        // let balance = 800;
+        // let pin = 1234;
+        // let canWithdraw = balance >= 500 && pin === 1234;
+        // //let canWithdraw = balance >=2000 || pin===1234;
+        // console.log(canWithdraw);
+
+        // let balance = 800;
+        // let pin = 1234;
+        // if(false) console.log("No run");
+
+        // let username="admin";
+        // if(username==="admin") {
+        //     console.log("Welcome Admin");
+        // }else{
+        //     console.log("Access denied");
+        // }
+
+        // let age = 25;
+        // let hasID = true;
+
+        // if( age >= 18 && hasID) {
+        //     console.log("You can enter");
+        // } else{
+        //     console.log("Entry denied");
+        // }
+
+        // let age = 15;
+        // if (age>= 18) {
+        //     if(age >= 65){
+        //         console.log("Senior Citizen");
+        //     }else{
+        //         console.log("Adult");
+        //     }
+            
+        // }else{
+        //     console.log("Minor");
+        // }
+
+        // let username ="user";
+        // let password ="1234";
+
+        // if(username === "user") {
+        //     if (password==="1234") {
+        //         console.log("Login Successfu");
+        //     }else{
+        //         console.log("Wrong password");
+        //     }
+        // } else{
+        //     console.log("User Not Found");
+        // }
+
+        // let balance=5000;
+        // let Amount = 2000;
+        // if(Amount<=balance){
+        //     if(Amount>0){
+        //         balance-=Amount;
+        //         console.log("Withdrawal Successful");
+        //         console.log("Newbalance:",balance)
+        //     }else{
+        //         console.log("Invalid Amount");
+        //     }
+        // }else{
+        //     console.log("Insufficient Funds");
+        // }
+
+        // let score= 85;
+        // let attendance = 80;
+
+        // if(attendance >= 75) {
+        //     if(score >= 90) {
+        //         console.log("Excellent");
+        //     }else if(score>=70){
+        //         console.log("Very Good");
+        //     }else{
+        //         console.log("Fail");
+        //     }
+        // }else{
+        //     console.log("Failed due to low attendance");
+        // }
+
+        // let username = prompt("Enter your username");
+        // let password = Number(prompt("Enter your password"));
+
+        // if (username ==="user"){
+        //     if(password===1234) {
+        //         console.log("Login Successful");
+        //         alert("Login Successful");
+        //     }else{
+        //         console.log("Wrong password");
+        //         alert("Wrong Password")
+        //     }
+        // }else{
+        //     console.log("User not found");
+        //     alert("User not Found");
+        // }
+
+        // let balance= 5000;
+        // let amount=prompt("Enter Amount");
+
+        // amount = Number(amount);
+        // if(amount<=balance) {
+        //     if(amount>0) {
+        //         balance-= amount;
+        //         console.log("Withdrawal Successful");
+        //         console.log("New balance:",balance);
+        //         alert("Withdrawal Successful.New Balance" +balance);
+        //     }else{
+        //         console.log("Invalid Amount");
+        //         alert("Invalid Amount");
+        //     }
+        // }else{
+        //     console.log("Insufficient Funds");
+        //     alert("Insufficient Funds");
+            
+        // }
+        // Shortcuts of if statements
+        //Tenary Operator
+        //Guard  operator
+        //Default Operator
+
+        //Tenary Operator
+        // const result = true ? "truthy" : "falsy";
+        // const result2 = 2 ?"truthy" : "falsy";
+        // console.log(result2);
+
+        //Guard Operator
+        // true && console.log("hello");
+
+        // const message = false && "hello";
+        // console.log(message);
+
+        //Default Operator
+        // const currency = "EUR" || "USD";
+        // const currency2 = undefined || "USD";
+        // console.log(currency);
+        //Tenary Operator contd.
+        // let age = 18;
+        // let status = age >= 18 ? "Adult" : "Minor";
+        // console.log(status);
+
+        // let number = 7;
+        // let result = number % 2 === 0 ? "Even" : "Odd";
+        // console.log(result);
+
+        // let isLoggedin = false;
+        // let message = isLoggedin ? "Welcome back!" : "Please login";
+
+        // console.log(message);
+
+        // let username = "";
+        // let displayName = username ? username : "Guest";
+        // console.log(displayName);
+
+        // let score = 85;
+        // let grade = score >= 90 ? "A" : Score >= 75 ? "B" : score >= 60 ? "C" : "F";
+        // console.log(grade);
+        
+        // let number = 40;
+        // let agegroup= number <=20 ? "Young Citizen" : "Senior Citizen";
+        // console.log(agegroup);
+
+        // let customer = [];
+        // customer.push(5);
+        // console.log(customer);
+
+        // let customers =["John","Sarah","Prince","Silas"];
+        // console.log(customers);
+        // customers.push("Elena");
+        // console.log(customers);
+         //.pop is used to remove the last customer
+        // customers.pop();
+
+        //add customer at the begining
+        // customers.unshift("Admin");
+        // console.log(customers);
+
+        // remove first customer
+        // customers.shift();
+        // console.log(customers);
+        // console.log(customers.length);
+
+        // let balance = [5000,12000,3000];
+        // console.log(balance[1]);
+        // console.log(balance[2]);
+
+        // let workers = ["Deamon","Minho","Klaus","Dae"]
+        // for(let i = 0; i<workers.length; i++){
+        //     console.log(workers[i]);
+        // }
+        
+        // while (i < workers.length) {
+        //     console.log(customers[i]);
+        //     i++;
+        // }
+
+        // let transactions = [500,200,1000,-300];
+
+        // let total = 0;
+        // for (let i = 0; i < transactions.length; i++) {
+        //     total = total + transactions[i];
+        // }
+        // console.log(total)
+        // let customers = ["John","Mary","Paul","Sarah"];
+
+        // console.log(customers);
+        // customers.splice(2,1);
+        // console.log(customers);
+
+        // let vipCustomers = customers.slice(1,3);
+        // console.log(vipCustomers);
+
+        //Function
+        // function chingu(a,b) {
+        //     y=a+b;
+        //     console.log("My friend");
+        //     console.log(y);
+        // }
+        // chingu(22,64);
+
+        // Mini Bank App
+        // let transactions = []; 
+        // stores all deposit and withdrawals
+
+        //1. Deposit Money (push)
+        // function deposit (amount) {
+        //     transactions.push(amount);
+        //     console.log ('Deposited: $#{amount}');
+        // }
+
+        // Withdraw Money (Push negative value)
+        // function withdraw(amount) {
+        //     transactions.push(amount);
+        //     console.log(`Deposited: $${amount}`);
+        // }
+
+        //Remove last Transaction (pop)
+
+        // function undoLastTransaction() {
+        //     let removed = transactions.pop();
+        //     console.log(`Last transaction removed: ${removed}`);
+        // }
+
+        //Add Opening Balance (unshift)
+        // function addOpeningBalance(amount) {
+        //     transactions.unshift(amount);
+        //     console.log(`Opening balance added: $${amount}`);
+        // }
+
+        //Remove opening balance (shift)
+        // function removeOpeningBalance() {
+        //     let removed = transactions.shift();
+        //     console.log(`Opening balance removed: $${removed}`);
+        // }
+
+        // Calculate balance (for loop)
+        // function getBalance() {
+        //     let balance = 0;
+        //     for (let i = 0; i < transactions.length; i++) {
+        //         balance += transactions[i];
+        //     }
+
+        //     console.log(`Current Balance: $${balance}`);
+        //     return balance;
+        // }
+
+        // View recent transaction (slice)
+        // function viewRecentTransaction() {
+        //     let recent = transactions.slice(-3);
+        //     console.log("Recent Transaction", recent);
+        // }
+
+        // Delete a specific transaction (Splice + indexOf)
+        // function deleteTransaction(amount) {
+        //     let index = transactions.indexOf(amount);
+        //     if(index!== -1) {
+        //         transactions.splice(index, 1);
+        //         console.log(`Transaction ${amount} deleted`);
+        //     } else {
+        //         console.log("Transaction not found");
+        //     }
+        // }
+
+        // Check if a transaction exists (includes)
+        // function hasTransaction(amount) {
+        //     if(transactions.includes(amount)){
+        //         console.log(`Transaction ${amount} exists`);
+        //     } else {
+        //         console.log(`Transaction ${amount} does not exist`);
+        //     }
+        // }
+
+        // addOpeningBalance(1000);
+        // getBalance();
+        // deposit(500);
+        // getBalance();
+        // deposit(200);
+        // getBalance();
+        // withdraw(300);
+        // getBalance();
+
+        // viewRecentTransaction();
+
+
+        // hasTransaction(200);
+        // deleteTransaction(200);
+
+        // removeOpeningBalance();
+        // getBalance();
+
+        // undoLastTransaction();
+        // getBalance();
+        // console.log("All Transaction:" , transactions);
+
+        // let customers = [
+        //     {name: "John", balance: 5000},
+        //     {name: "Mary", balance: 7000},
+        // ];
+        // function deposit (customer, amount) {
+        //     customer.balance += amount;
+        // }
+
+        // deposit(customers[0], 2000);
+        // deposit(customers[1], 2000);
+
+        // Spread vs Rest
+        //Spread                           Rest
+        //Expand values                 Collect Values
+        //Used when calling             Functions used when defining
+        //function(...args)             functions[...arr]
+
+        // function sayHello() {
+        //     console.log("Hello Everyone")
+        //     console.log("Welcome to function on js")
+        // }
+        // sayHello();
+
+        // let balance = 1000;
+        // function checkBalance() {
+        //     console.log("Your balance is:" + balance);
+        // }
+        // checkBalance();
+
+        // function greetUser(user) {
+        //     console.log("hello " + user);
+        // }
+        // greetUser("David");
+        // greetUser(42);
+
+        // let balance = 1000;
+
+        // function deposit(amount) {
+        //     balance += amount;
+        //     console.log("Deposit: " + amount);
+            
+        // }
+        // deposit(200);
+
+        // let balance = 1000;
+        // function withdraw(amount) {
+        //     balance -= amount;
+        //     console.log("Withdraw: " + amount);
+        // }
+        // withdraw(150);
+
+        // let balance = 1000;
+        // function withdraw(amount) {
+        //     if (amount > balance) {
+        //         console.log("Sorry you can't withdraw");
+        //     } else {
+        //         balance-= amount;
+        //         console.log("Withdraw: "+ amount);
+        //     }
+        // }
+        // withdraw(2000);
+
+        //Function with Multiple parameters
+        // function transfer (from,to,amount) {
+        //     console.log("Transferred: ", amount);
+
+        // }
+        // transfer("Savings","Checking",300);
+
+        // let balance = 1000;
+        // let checkBalance = function () {
+        //     console.log("Your balance is: " + balance);
+        // };
+
+        // function transfer (savings, current, amount) {
+        //     if (amount > balance) {
+        //         console.log("Insufficient funds for transfer");
+        //     }else {
+        //         balance -= amount;
+        //         console.log(
+        //             "Transferred: " + amount + " from " + savings + " to " + current,
+        //         );
+        //     }
+        // }
+
+        // transfer("Savings","Current", 300);
+        // checkBalance();
+
+        // function studentReport(grade, score) {
+        //     console.log("Your Grade is : " + grade + " Cause you scored " + score)
+        // }
+        // studentReport("B", 75);
+
+        //Funtions contd.
+        // let accountA = {
+        //     name:"Ibrahim",
+        //     balance: 1000,
+        // };
+
+        // let accountB = {
+        //     name:"Musa",
+        //     balance: 500,
+        // };
+
+        // function transferMoney(fromAccount, toAccount,amount) {
+        //     if (fromAccount.balance < amount) {
+        //         console.log("Transfer failed: Insufficient Funds");
+        //         return;
+        //     }
+        //     fromAccount.balance -= amount;
+        //     toAccount.balance += amount;
+
+        //     console.log("Transfer succesfull!");
+        //     console.log(fromAccount.name + " balance: ", fromAccount.balance);
+        //     console.log(toAccount.name + " balance: ", toAccount.balance);
+        // }
+        // transferMoney(accountA, accountB, 300);
+
+        //Regular Funtion
+        // function deposit(amount) {
+        //     let balance = 1000;
+        //     balance += amount;
+        //     return balance;
+        // }
+
+        // console.log(deposit(500));
+
+        //ARROW FUNCTION (Mordern JS)
+        // const deposit = (amount)  => {
+        //     let balance = 1000;
+        //     balance += amount
+        //     return balance;
+        // }
+        // console.log(deposit(500));
+
+        // Default Parameter
+        // function createAccount(name = "User") {
+        //     console.log("Account created for", name);
+        // }
+        // createAccount();
+        // createAccount("Sunny");
+
+        //Function inside Objects
+
+        // const bankAccount = {
+        //     balance: 1000,
+        //     deposit(amont) { 
+        //         this.balance += amont;
+        //     },
+        //     withdraw(amount) {
+        //         this.balance-=amount;
+        //     },
+        // };
+        // bankAccount.deposit(200);
+        // console.log(bankAccount.balance);
+
+        // Callback Function
+        // function greet(name) {
+        //     console.log("Hello ",  name);
+        // }
+        // function sayHello(name, callback) {
+        //     callback(name);
+        // }
+        // sayHello("Alice", greet);
+
+        // let balance = 1000;
+        // function checkBalance() {
+        //     console.log("Your balance is: " + balance);
+        // }
+        // checkBalance();
+
+        // function deposit(amount) {
+        //     balance += amount;
+        //     console.log("Deposit: " + amount);
+        // }
+        
+        // function withdraw(amount) {
+        //     balance -= amount;
+        //     console.log("Withdraw: " + amount);
+        // }
+
+        // function processTransactiom(amount, callback) {
+        //     callback(amount);
+        // }
+        // processTransactiom(10, withdraw);
+        // checkBalance();
+
+        // anonymous function
+        // console.log("Start");
+        // setTimeout(() => {
+        //     document.querySelector(".intro").innerHTML = "transaction completed";
+        //     console.log("Transaction Complete");
+        // }, 9000);
+        // console.log("End");
+
+        // function sayHello() {
+        //     console.log("Hello later");
+        // }
+        // setTimeout(sayHello, 3000);
+        //  console.log("learning");
+
+        // function greet() {
+        //     console.log("hello,world!");
+        // }
+        // setInterval(greet, 1000);
+
+        // let balance = 1000;
+        // let  monitor = setInterval(()  => {
+        //     console.log("Current Balance:", balance);
+        // }, 1000);
+
+        // setTimeout(()  => {
+        //     clearInterval(monitor);
+        //     console.log("Stopped monitoring balance.");
+        // }, 5000);
+    </script>
+</body>
+</html>

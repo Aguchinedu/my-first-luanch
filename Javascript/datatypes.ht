@@ -1,0 +1,91 @@
+ //Data Types
+        //Java script has 8 data types 
+        //they are grouped into two categories
+        
+        // Primitive and Non- primitive
+        //Primitive data types are the most 
+        // basic data types in javascript .
+        // They are immutable and are stored directly in the memory.
+        // Examples include;
+        //String
+        // Number
+        // boolean
+        //undefined 
+        //null
+        //symbol
+        //bigint
+        
+        //Non- Primitive data types 
+        // are more complex data types in javascript
+        //1. object
+        // let user ={
+        //     name:"Sunday",
+        //     balance: 5000,
+        // };
+
+        // console.log(5=="5");
+        // console.log(5==="5")
+
+        // let username="john";
+        // console.log(username);
+        // let amount= 2000;
+        // console.log(amount);
+        // let isActive= true;
+        // console.log(isActive);
+        // let pin;
+        // console.log(pin);
+        // let account=null;
+        // console.log(account);
+        // let score=0;
+        // console.log(score);
+        // let hashcard = false;
+        // console.log(hashcard);
+        // let id = Symbol("id");
+        // console.log(id);
+        // console.log(typeof pin);
+        // console.log(typeof amount);
+        // console.log(typeof isActive);
+        // console.log(typeof account);
+        // console.log(typeof score);
+        // console.log(typeof id);
+        // console.log(typeof hashcard);
+        // Not Operator 
+        // console.log(true);
+        // console.log(false);
+        // console.log(!true);
+        // console.log(!false);
+        // if(5) {
+        //  console.log("truthy");
+        // }
+
+         
+       //List of falsy value
+       //false, 0, NaN, undefined, null, ""
+
+        //    if(0){
+        //     console.log("false");
+        //    }
+
+    //    console.log(!0);
+    //    console.log("test" / 5);
+    //    let car;
+    //    console.log(car);
+    //    const purple = undefined;
+    //    console.log(purple);
+    //    Comparison Operator
+    //    let pin = 1234;
+    //    let balance=1000;
+    //    console.log(balance>500);
+    //    console.log(balance===1000);
+    //    console.log(pin!==1234);
+    //    console.log(10>=5);
+    //    console.log(5<=10);
+    //    console.log(true === true);
+    //    console.log(false !== true);
+       
+
+       //let pin = 1234;
+       //let correct = pin === 1234;
+       //console.log(correct);
+       //console.log(true && true);
+       //console.log(false || true);

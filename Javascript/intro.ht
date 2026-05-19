@@ -1,0 +1,96 @@
+// console.log("Anneong");
+
+        // console - built-in browser object
+        // .access operator
+        // ()- run the function
+        // log- function that prints
+        // "hello world"-string
+        // ;-statement ends
+
+        // console.log(100)
+        // console.log("100");
+        // console.log(true);
+        // console.log("Balance loader");
+        // console.log("balance created successfully");
+
+        // console.log(67)
+        // console.log("Amente");
+        // console.log(false);
+
+        // a variable is a box that holds data
+        // let amount = 10;
+        // let balance = 20;
+        // console.log(amount);
+        // console.log(balance);
+
+        //let- create a variable 
+        //balance- variable name
+        //=- assignment operator 
+        //1000- value
+
+        // variable is a container that stores data values.
+        //It allows us to store and manipulate data in our programs.
+        //We can use variables to hold dif types of data, such as numbers , string, boolean, and more.
+        //Variables are essential for creating dynamic and interative applications.
+
+        // let bankName = "Super bank";
+        // let -create a variable
+        //bankName- is the name of te variable
+        // = assignment operator
+        //"Super bank "- is the value assigned to the variable
+
+        
+        
+        // let string = "Please";
+        // let boolean = true;
+        // let age= 45;
+        // console.log(string);
+        // console.log(boolean);
+        // console.log(age);
+
+        // let string = "Meumi apayo, jo aye Amente";
+        // let age=34;
+        // let boolean = false;
+        // console.log(string);
+        // console.log(age);
+        // console.log(boolean);
+
+
+
+        //Types of Variables
+        // Types include var, let and const
+        //Var can be re-declared and re-assigned,function scoped and hoisted
+        //var balanced = 500;
+        //  var balance = 1000;
+        //  balance = 2000;
+        // console.log(balance);
+
+        //let can be re-assigned but not re-declared, block scoped and hoisted
+        //   let balance = 500;
+        // let balance= 10000;
+        // balanced = 20000;
+        // balance = balance +=200
+        // console.log(balance);
+
+        //  balan = 250;
+        //  let amount= 250;
+        //  let total = balan += amount;
+        // let withdrawl= 400;
+        // let balance = total-=withdrawl;
+        // // console.log(total);
+        //  console.log(balance);
+
+        // let age = 22;
+        // let years = 5
+        // age = age*years;
+        // console.log(age);
+
+        // let number = 30;
+        // let length= 6;
+        // number /= length;
+        // console.log(number);
+
+        //const cannot be re-assigned or re-declared, block scoped and not hoisted
+        // const accountNumnber ="08162956333";
+        // const accountNumnber="0123456789";
+        // accountNumnber="1122334455";
