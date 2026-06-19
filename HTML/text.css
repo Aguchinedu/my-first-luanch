@@ -1,0 +1,196 @@
+ <style>
+  .text-style{
+    font-family: Arial;
+    /* font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center; */
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  .video-stats{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    /* line-height: 1px; */
+    margin-top: 0;
+    margin-bottom: 20px;
+  
+  }
+  .video-author{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    color:  rgb(96, 96, 96);
+    margin-bottom: 20px;
+  }
+  .video-des{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 280px;
+    color:  rgb(96, 96, 96);
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .shop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    /* text-decoration: underline; */
+  }
+  
+  .spin:hover{
+    text-decoration: underline;
+  }
+  .tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .Arial{
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .sale{
+    font-weight: lighter;
+    color: red;
+    font-size: small;
+    font-style: italic;
+  }
+  .head{
+    width: 180px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Verdana;
+  }
+  .hspan{
+    font-weight: lighter;
+    font-size: 14px;
+    color: gray;
+  }
+  .body{
+    width: 300px;
+    font-family: Verdana;
+  }
+  .b1{
+    background-color: darkgreen;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 5px;
+    color: white;
+  }
+  .apple{
+    /* width: 300px; */
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .aspan{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  .add{
+    font-family: Arial;
+    text-align: center;
+    font-size: small;
+    color: blue;
+  }
+  .h1{
+    color: orangered;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+
+  }
+  .h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: Arial;
+    font-weight: bold;
+
+  }
+  .h3{
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 7px;
+  }
+  .h4{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+  }
+  .b2{
+    margin-left: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: blue;
+  }
+  .main{
+    /* width: 200px; */
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: b;
+    margin-bottom: 0;
+  }
+  .cur{
+    font-size: 15px;
+    color: gray;
+  }
+  .num2{
+    margin-top: 0;
+    color: green;
+    margin-bottom: 0;
+  }
+  .num3{
+    margin-top: 8px;
+    color: gray;
+  }
+  .num4{
+    color: red;
+  }
+  .top{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .top2{
+    font-weight: normal;
+    color: grey;
+  }
+  .middle{
+    margin-top: 5px;
+    width: 450px;
+  }
+  .em{
+    color: lightskyblue;
+  }
+</style>
